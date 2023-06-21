@@ -9,7 +9,7 @@ import img6 from '../assets/images/category/category-6.jpg'
 const Category = () => {
   return (
     <div className='bg-[#ebeff1]'>
-    <div className="max-w-screen-2xl mt-0 mb-0 ml-auto mr-auto overflow-auto py-16">
+    <div className="max-w-screen-xl mt-0 mb-0 ml-auto mr-auto overflow-auto py-16">
   <h2 className="text-2xl font-medium text-[#2f362f] uppercase mb-6">
     shop by category
   </h2>

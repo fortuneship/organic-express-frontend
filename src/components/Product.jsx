@@ -12,15 +12,15 @@ import product10 from '../assets/images/products/product10.jpg'
 import product11 from '../assets/images/products/product11.jpg'
 import product12 from '../assets/images/products/product12.jpg'
 
-
-// import { FaSearch, FaHeart, FaRegHeart, FaMagnifyingGlass, FaStar } from 'react-icons/fa'
+import { FaHeart, FaRegHeart, FaStar } from 'react-icons/fa';
+ //import { FaSearch, FaHeart, FaRegHeart, FaMagnifyingGlass, FaStar } from 'react-icons/fa'
 
 // import {Link} from 'react-router-dom'
 
 
 const Product = () => {
   return (
-    <div className="max-w-screen-2xl mt-0 mb-0 ml-auto mr-auto overflow-auto py-16 pb-16">
+    <div className="max-w-screen-xl mt-0 mb-0 ml-auto mr-auto overflow-auto py-16 pb-16">
   <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">
     products
   </h2>
@@ -64,7 +64,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+            <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -78,14 +81,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -129,7 +132,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -143,14 +149,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -194,7 +200,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -208,14 +217,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -259,7 +268,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -273,14 +285,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -324,7 +336,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -338,14 +353,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -389,7 +404,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -403,14 +421,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -454,7 +472,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -468,14 +489,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>
@@ -519,7 +540,10 @@ const Product = () => {
         </div>
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
-            <span>
+          <div className='flex'>
+              <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+            </div>
+            {/* <span>
               <i className="fa-solid fa-star" />
             </span>
             <span>
@@ -533,14 +557,14 @@ const Product = () => {
             </span>
             <span>
               <i className="fa-solid fa-star" />
-            </span>
+            </span> */}
           </div>
           <div className="text-xs text-gray-500 ml-3">(150)</div>
         </div>
       </div>
       <a
         href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className="block w-full py-1 text-center text-white bg-[#4bae4f] border border-primary rounded-b hover:bg-[#81c683]"
       >
         Add to cart
       </a>

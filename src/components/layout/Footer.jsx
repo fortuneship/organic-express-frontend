@@ -10,9 +10,9 @@ const Footer = () => {
     - @tailwindcss/forms
 */}
   <footer className="bg-[#ebeff1]">
-    <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="lg:flex lg:items-start lg:gap-8">
-        <div className="text-teal-600">
+        {/* <div className="text-teal-600">
           <svg
             className="h-8"
             viewBox="0 0 28 24"
@@ -24,11 +24,11 @@ const Footer = () => {
               fill="currentColor"
             />
           </svg>
-        </div>
+        </div> */}
         <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
           <div className="col-span-2">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900">
+              <h2 className="text-2xl font-bold text-[#2f362f]">
                 Get the latest news!
               </h2>
               <p className="mt-4 text-gray-500">
@@ -43,34 +43,26 @@ const Footer = () => {
                 {" "}
                 Email{" "}
               </label>
-              <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4">
+              <div className="border border-gray-100 p-2 sm:flex sm:items-center sm:gap-4">
                 <input
                   type="email"
                   id="UserEmail"
-                  placeholder="john@rhcp.com"
-                  className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+                  placeholder="johndoe@gmail.com"
+                  className="w-full p-2 sm:text-sm"
                 />
-                <button className="mt-1 w-full bg-[#4bae4f] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0">
+                <button className="mt-1 w-full bg-[#4bae4f] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-[#81c683] sm:mt-0 sm:w-auto sm:shrink-0">
                   Sign Up
                 </button>
               </div>
             </form>
           </div>
           <div className="col-span-2 sm:col-span-1">
-            <p className="font-medium text-gray-900">Services</p>
+            <p className="text-lg text-[#2f362f]">Services</p>
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
-                >
-                  1on1 Coaching
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Company Review
                 </a>
@@ -78,7 +70,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Accounts Review
                 </a>
@@ -86,7 +78,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   HR Consulting
                 </a>
@@ -94,7 +86,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   SEO Optimisation
                 </a>
@@ -102,12 +94,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-2 sm:col-span-1">
-            <p className="font-medium text-gray-900">Company</p>
+            <p className="text-lg text-[#2f362f]">Company</p>
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   About
                 </a>
@@ -115,7 +107,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Meet the Team
                 </a>
@@ -123,7 +115,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Accounts Review
                 </a>
@@ -131,12 +123,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-2 sm:col-span-1">
-            <p className="font-medium text-gray-900">Helpful Links</p>
+            <p className="text-lg text-[#2f362f]">Helpful Links</p>
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Contact
                 </a>
@@ -144,7 +136,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   FAQs
                 </a>
@@ -152,7 +144,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Live Chat
                 </a>
@@ -160,12 +152,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-2 sm:col-span-1">
-            <p className="font-medium text-gray-900">Legal</p>
+            <p className="text-lg text-[#2f362f]">Legal</p>
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Accessibility
                 </a>
@@ -173,7 +165,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Returns Policy
                 </a>
@@ -181,7 +173,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Refund Policy
                 </a>
@@ -189,7 +181,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Hiring Statistics
                 </a>
@@ -197,12 +189,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-2 sm:col-span-1">
-            <p className="font-medium text-gray-900">Downloads</p>
+            <p className="text-lg text-[#2f362f]">Downloads</p>
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   Marketing Calendar
                 </a>
@@ -210,7 +202,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-[#8f978f] transition hover:opacity-75"
                 >
                   SEO Infographics
                 </a>
@@ -330,7 +322,7 @@ const Footer = () => {
       <div className="mt-8 border-t border-gray-100 pt-8">
         <div className="sm:flex sm:justify-between">
           <p className="text-xs text-gray-500">
-            © 2022. Company Name. All rights reserved.
+            © 2023. Company Name. All rights reserved.
           </p>
           <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
             <li>

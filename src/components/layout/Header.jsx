@@ -42,8 +42,12 @@ const Header = () => {
             </div>
         </form>
         <div>
+            <Link to='/login'>
             <button className='text-white pr-4'>Sign In</button>
+            </Link>
+            <Link to='/signup'>
             <button className='bg-[#2f7d32] px-6 py-2 rounded cursor-pointer text-white uppercase font-bold'>Sign Up</button>
+            </Link>
         </div>
 
     </header>
